@@ -1,0 +1,46 @@
+.banner {
+  min-height: 600px;
+  background-image: url("/src/img/main_foto.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 120px;
+}
+.banner_description {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 5;
+  text-align: center;
+  max-width: 1200px;
+}
+.banner_description p {
+  color: #ffae2b;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+h1 {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 200;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+  background: #181511;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.1rem transparent;
+}
+.mbr {
+  display: block;
+}
+.button_banner {
+  color: #181511;
+  background-color: #ffae2b;
+  font-family: "Old Standard TT", serif;
+  border: none;
+}

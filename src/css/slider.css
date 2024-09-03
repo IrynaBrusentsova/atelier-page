@@ -1,0 +1,73 @@
+/* slider*/
+.gallery_slider {
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: none;
+  justify-content: center;
+}
+
+.gallery_slider .slider {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  top: 10%;
+  left: calc(50% - 100px);
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  transition: 1.5s;
+}
+.gallery_slider .slider .slider_item {
+  position: absolute;
+  inset: 0 0 0 0;
+  /* відображення дзеркальне */
+  -webkit-box-reflect: below 0px
+    linear-gradient(transparent, transparent, #0004);
+  transform: rotateY(calc((var(--position) * 40deg))) translateZ(450px);
+}
+.gallery_slider .slider .slider_item img {
+  object-fit: cover;
+}
+
+.slider_btns {
+  color: #fff;
+  position: absolute;
+  display: flex;
+  bottom: 30%;
+  top: 50%;
+  gap: 30px;
+}
+.slider_btns .btn {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider_btns .btn:active {
+  background: #fff;
+}
+
+.slider_btns .btn::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transform: rotate(45deg) translate(-2.5px, 2.5px);
+}
+.slider_btns .btn.prev::before {
+  transform: rotate(225deg) translate(-2.5px, 2.5px);
+}
+
+.slider_btns .btn:active::before {
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+}
+/* slider end */

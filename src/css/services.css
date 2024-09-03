@@ -1,0 +1,43 @@
+.banner_services {
+  min-height: 573px;
+  background-image: url("/src/img/services_foto.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
+.icon_services {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 24px;
+}
+h3 {
+  font-size: 29px;
+  color: #ffae2b;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+.gallery_services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: start;
+  color: #fff;
+  margin-bottom: 120px;
+}
+.gallery_services .grid_item p {
+  font-size: 15px;
+  text-transform: initial;
+  margin-bottom: 24px;
+}
+.gallery_services .grid_item p:first-of-type {
+  font-size: 15px;
+}
+.gallery_services .grid_item p:last-of-type {
+  font-size: 11px;
+}
+.line {
+  width: 100%px;
+  height: 1px;
+  background-color: #4b4136;
+  margin-bottom: 20px;
+}
