@@ -3,6 +3,7 @@ Project Overview
 Landing "Atelier" this is web page allows users view the web studio`s portfolio, choose layout, contact the studio.
 It is a landing page that is responsive to desktop, tablet, and mobile screens for a seamless device experience.
 The project uses animation and transitions to improve user experience and increase engagement.
+The layout of this landing page was taken from the Figma graphics editor.
 
 Technologies Used
 
