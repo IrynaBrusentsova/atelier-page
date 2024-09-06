@@ -1,6 +1,6 @@
 .banner_services {
   min-height: 573px;
-  background-image: url("/src/img/services_foto.png");
+  background-image: url("../img/services_foto.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

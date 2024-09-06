@@ -13,21 +13,21 @@
   position: relative;
 }
 .item_1 {
-  background-image: url("/src/img/follow/follow_1.png");
+  background-image: url("../img/follow/follow_1.png");
 }
 .item_2 {
-  background-image: url("/src/img/follow/follow_2.png");
+  background-image: url("../img/follow/follow_2.png");
 }
 .item_3 {
-  background-image: url("/src/img/follow/instagram_big.png");
+  background-image: url("../img/follow/instagram_big.png");
   background-size: contain;
 }
 
 .item_4 {
-  background-image: url("/src/img/follow/follow_3.png");
+  background-image: url("../img/follow/follow_3.png");
 }
 .item_5 {
-  background-image: url("/src/img/follow/follow_4.png");
+  background-image: url("../img/follow/follow_4.png");
 }
 .icon_follow {
   width: 50px;
