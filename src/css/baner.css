@@ -1,6 +1,6 @@
 .banner {
   min-height: 600px;
-  background-image: url("/src/img/main_foto.jpg");
+  background-image: url("../img/main_foto.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
