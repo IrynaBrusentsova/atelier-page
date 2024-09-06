@@ -6,7 +6,6 @@ document.querySelector(".burger").addEventListener("click", function () {
 });
 
 const prev = document.querySelector(".prev");
-console.log(prev);
 const next = document.querySelector(".next");
 const slider = document.querySelector(".slider");
 
