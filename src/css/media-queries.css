@@ -40,6 +40,10 @@
       opacity: 1;
     }
   }
+  nav ul li a {
+    font-size: 21px;
+    display: block;
+  }
 
   .button_header {
     display: none;
