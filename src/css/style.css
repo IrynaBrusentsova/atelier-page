@@ -36,6 +36,8 @@ li {
 }
 button {
   transition: 0.5s;
+  border: none;
+  outline: none;
 }
 button:hover {
   transform: scale(1.1);
